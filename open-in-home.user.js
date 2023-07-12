@@ -13,7 +13,6 @@
     'use strict';
     console.debug('Started script');
 
-    // TODO: find a way to ask the user for their home instance and save it
     let homeInstance = await GM.getValue("homeInstance");
 
     if (homeInstance === undefined) {
